@@ -1,0 +1,77 @@
+
+QMainWindow{
+    background-color: #222f3e;
+}
+
+QLabel {
+    font-size: 25;
+}
+
+QCheckBox {
+    color: #fff;
+    font-size: 14px;
+}
+
+QComboBox {
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    font-size: 13px;
+    padding: 3px;
+}
+
+QComboBox::drop-down {
+    border: 0px;
+}
+
+QComboBox::down-arrow {
+    image: url(./img/down-arrow.png);
+    margin-right: 15px;
+    background-color: #1dd1a1;
+    width: 35%;
+    height: 100%;
+}
+
+QComboBox::on {
+    border: 2px solid #1dd1a1;
+}
+
+QListView{
+    font-size: 20px;
+    background-color: #fff;
+    font-weight: bold;
+    selection-background-color: rgb(47, 175, 178);
+    show-decoration-selected: 1;
+}
+QLineEdit {
+    border: 2px solid #1dd1a1;
+    border-radius: 4px;
+    padding: 0 1px;
+    selection-background-color: rgb(47, 175, 178);
+    font-size: 14px;
+}
+
+QLabel{
+    color: #fff;
+    font-size: 14px;
+}
+
+QPushButton {
+    background-color: #1dd1a1;
+    color:#000;
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 7px 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+QPushButton:hover {
+    background-color: #0cc090
+}
+
+QProgressBar::chunk {
+    background-color: #1dd1a1;
+}
+
+QStatusBar {
+    color: #fff;
+}
