@@ -1,8 +1,6 @@
 from functools import partial
 from pytube import exceptions
 
-ERROR_MSG = "ERROR"
-
 class Controller:
     """yt-downloader's controller class."""
 

@@ -6,9 +6,7 @@
 <hr>
 
 ## Preview
-![alt text](docs/example1.png "Title")
-
-![alt text](docs/example2.png "Title")
+![alt text](docs/example.png "Title")
 
 ## Technology
 * pyqt6
